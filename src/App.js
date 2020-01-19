@@ -9,8 +9,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Title>Search Movies</Title>
-        <SearchForm />
+          <Title>Search Movies</Title>
+        <div className='SearchForm-wrapper'>
+          <SearchForm />
+        </div>
       </div>
     );
   }
