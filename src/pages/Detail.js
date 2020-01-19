@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 import { ButtonBackToHome } from '../components/ButtonBackToHome';
 
-
-
 const API_KEY = '222d9df6'
 export class Detail extends Component {
     static propTypes = {
