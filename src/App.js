@@ -16,7 +16,14 @@ class App extends Component {
   _renderResults(){
     const {results} = this.state
     return results.map(movie => {
-      return <p key={movie.imdbID}>{movie.Title}</p>
+      return (
+            <Movie
+                key={movie.imdbID}
+                title={movie.Title}
+                year={movie.Year}
+                poster={movie.Poster}
+              />
+      )
     })
   }
 
