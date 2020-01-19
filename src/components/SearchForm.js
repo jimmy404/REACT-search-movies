@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 const API_KEY = '222d9df6'
 
 export class SearchForm extends Component {
