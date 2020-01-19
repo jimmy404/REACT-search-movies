@@ -19,9 +19,9 @@ class App extends Component {
         <div className='SearchForm-wrapper'>
           <SearchForm onResults={this._handleResults}/>
         </div>
-        {this.state.results.length === 0
-        ? <p>Sin resultados</p>
-        : <p>Sin resultados</p>}
+          {this.state.results.length === 0
+          ? <p>Sin resultados</p>
+          : <p>Con resultados</p>}
       </div>
     );
   }
