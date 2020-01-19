@@ -6,6 +6,7 @@ import './App.css';
 import 'bulma/css/bulma.css'
 
 class App extends Component {
+  state = {results: [] }
   render() {
     return (
       <div className="App">
@@ -13,6 +14,9 @@ class App extends Component {
         <div className='SearchForm-wrapper'>
           <SearchForm />
         </div>
+        {this.state.results.length === 0
+        ? <p>Sin resultados</p>
+        : <p>Sin resultados</p>}
       </div>
     );
   }
