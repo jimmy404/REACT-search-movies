@@ -12,9 +12,9 @@ export class SearchForm extends Component {
                     />
                 </div>
             <div className="control">
-                    <a className="button is-info">
+                    <button className="button is-info">
                     Search
-                    </a>
+                    </button>
                 </div>
             </div>
         )
