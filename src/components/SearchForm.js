@@ -16,7 +16,7 @@ export class SearchForm extends Component {
 
     render() {
         return(
-            <form onSubmit={this._handleChange}>
+            <form onSubmit={this._handleSubmit}>
                 <div className="field has-addons">
                     <div className="control">
                         <input
