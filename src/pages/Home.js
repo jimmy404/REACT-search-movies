@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 import { Title } from '../components/Title';
 import { SearchForm } from '../components/SearchForm';
 import { MoviesList } from '../components/MoviesList';
