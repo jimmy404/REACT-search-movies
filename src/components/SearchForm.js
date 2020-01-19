@@ -14,7 +14,8 @@ export class SearchForm extends Component {
 
     _handleSubmit = (e) => {
         e.preventDefault()
-        alert(this.state.inputMovie)
+
+        fetch()
     }
 
     render() {
